@@ -1,0 +1,101 @@
+/* Style the page using the following CSS properties
+
+    The image must be responsive and not over 150px wide
+    Your bio text must be wrapped around the image
+    The description list terms must be bold and the font size set to 1.15 times the root element font size
+    The description list data must be on the following line from the term and without any indentation
+ */
+ 
+
+
+ body{
+    margin: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+img{
+    width: 150px;
+    padding: 0.5%; 
+    padding-right: 3%;
+    float: left;       
+}
+
+.lists li{
+    list-style-type: none;
+    font-size: 1.15;
+    padding-left: 0;
+}
+
+.list ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Desktop */
+ @media screen and (min-width: 1024px) and (max-width: 1920px) {
+
+  }
+
+
+  /* Mobile */
+  @media screen and (min-width: 360px) and (max-width: 414px) {
+    img{
+        width: 150px;
+        padding: 0.5%;
+     }
+  }
+
+  /* Tablet */
+  @media screen and (min-width: 601px) and (max-width:1280) {
+    img{
+        width: 150px;
+        padding: 0.5%;
+     }
+  }
+
