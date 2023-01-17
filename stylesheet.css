@@ -1,17 +1,17 @@
-/* Style the page using the following CSS properties
-
-    The image must be responsive and not over 150px wide
-    Your bio text must be wrapped around the image
-    The description list terms must be bold and the font size set to 1.15 times the root element font size
-    The description list data must be on the following line from the term and without any indentation
- */
- 
+header{
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color: burlywood;
+    color: brown;
+}
 
 
- body{
-    margin: 20%;
+body{
+    margin: 15%;
     margin-top: 2%;
     margin-bottom: 2%;
+    background-color: beige;
+    color: brown;
 }
 
 
@@ -22,15 +22,42 @@ img{
     float: left;       
 }
 
-.lists li{
-    list-style-type: none;
-    font-size: 1.15;
-    padding-left: 0;
+.list{
+    background-color: burlywood;
+    padding: 2%;
 }
 
-.list ul{
-    list-style-position: inside;
-    padding-left: 0;
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+  
+ol {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.list :nth-child(2){
+    font-weight:100;
+    font-size: 1em;
+}
+
+.list :nth-child(4){
+    font-weight:100;
+    font-size: 1em;
+}
+
+.list :nth-child(6){
+    font-weight:100;
+    font-size: 1em;
 }
 
 
@@ -71,31 +98,4 @@ img{
 
 
 
-
-
-
-
-
-
- /* Desktop */
- @media screen and (min-width: 1024px) and (max-width: 1920px) {
-
-  }
-
-
-  /* Mobile */
-  @media screen and (min-width: 360px) and (max-width: 414px) {
-    img{
-        width: 150px;
-        padding: 0.5%;
-     }
-  }
-
-  /* Tablet */
-  @media screen and (min-width: 601px) and (max-width:1280) {
-    img{
-        width: 150px;
-        padding: 0.5%;
-     }
-  }
 
